@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Shadow filter -->
+    <filter id="cubeShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- ==================== CUBES ==================== -->
+  <g id="cubes" filter="url(#cubeShadow)">
+    
+    <!-- 1. TOP CUBE (Centered at X: 450, Y: 130) -->
+    <!-- Top Face -->
+    <polygon points="450,70 540,110 450,150 360,110" fill="#222226" stroke="#111" stroke-width="2" />
+    <!-- Left Face (Dark Slate) -->
+    <polygon points="360,110 450,150 450,260 360,220" fill="#5a5e66" stroke="#111" stroke-width="2" />
+    <!-- Right Face (Bright Red) -->
+    <polygon points="450,150 540,110 540,220 450,260" fill="#e11d27" stroke="#111" stroke-width="2" />
+    
+    <!-- Letter 'ሀ' on Left Face (Transformed) -->
+    <!-- Using clean path for Ethiopic letter ሀ -->
+    <g transform="translate(405, 185) skewY(24) scale(0.9, 1)">
+      <!-- Ethiopic 'ሀ' shape -->
+      <path d="M-22,-35 C-22,-45 22,-45 22,-35 L22,25 C22,35 10,35 10,25 L10,-20 C10,-28 -10,-28 -10,-20 L-10,25 C-10,35 -22,35 -22,25 Z" fill="#ffffff" />
+    </g>
+    
+    <!-- Letter 'ሁ' on Right Face (Transformed) -->
+    <g transform="translate(495, 185) skewY(-24) scale(0.9, 1)">
+      <!-- Ethiopic 'ሁ' shape (ሀ with middle horizontal protrusion) -->
+      <path d="M-22,-35 C-22,-45 22,-45 22,-35 L22,25 C22,35 10,35 10,25 L10,-5 L26,-5 C32,-5 32,5 26,5 L10,5 L10,25 C10,35 -2,-5 -2,-5 L-10,-5 L-10,25 C-10,35 -22,35 -22,25 Z" fill="#ffffff" />
+    </g>
+
+
+    <!-- 2. BOTTOM LEFT CUBE (Centered at X: 355, Y: 330) -->
+    <!-- Top Face -->
+    <polygon points="355,270 445,310 355,350 265,310" fill="#222226" stroke="#111" stroke-width="2" />
+    <!-- Left Face (Dark Slate) -->
+    <polygon points="265,310 355,350 355,460 265,420" fill="#5a5e66" stroke="#111" stroke-width="2" />
+    <!-- Right Face (Bright Red) -->
+    <polygon points="355,350 445,310 445,420 355,460" fill="#e11d27" stroke="#111" stroke-width="2" />
+
+    <!-- Letter 'A' on Left Face (Transformed) -->
+    <g transform="translate(310, 385) skewY(24) scale(1, 1.05)">
+      <text x="0" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="75" font-weight="900" fill="#ffffff" text-anchor="middle">A</text>
+    </g>
+
+    <!-- Letter 'B' on Right Face (Transformed) -->
+    <g transform="translate(400, 385) skewY(-24) scale(1, 1.05)">
+      <text x="0" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="75" font-weight="900" fill="#ffffff" text-anchor="middle">B</text>
+    </g>
+
+
+    <!-- 3. BOTTOM RIGHT CUBE (Centered at X: 545, Y: 330) -->
+    <!-- Top Face -->
+    <polygon points="545,270 635,310 545,350 455,310" fill="#222226" stroke="#111" stroke-width="2" />
+    <!-- Left Face (Dark Slate) -->
+    <polygon points="455,310 545,350 545,460 455,420" fill="#5a5e66" stroke="#111" stroke-width="2" />
+    <!-- Right Face (Bright Red) -->
+    <polygon points="545,350 635,310 635,420 545,460" fill="#e11d27" stroke="#111" stroke-width="2" />
+
+    <!-- Number '1' on Left Face (Transformed) -->
+    <g transform="translate(500, 385) skewY(24) scale(1, 1.05)">
+      <text x="0" y="15" font-family="system-ui, -apple-system, sans-serif" font-size="75" font-weight="900" fill="#ffffff" text-anchor="middle">1</text>
+    </g>
+
+    <!-- Ethiopic '፩' (One) on Right Face (Transformed) -->
+    <g transform="translate(590, 385) skewY(-24) scale(0.9, 1)">
+      <!-- Ethiopic numeral 1 (፩) drawn with characteristic serifs and bar -->
+      <path d="M-15,-30 L15,-30 L15,-22 L-3,-22 L-3,18 L15,18 L15,26 L-15,26 L-15,18 L3,18 L3,-22 L-15,-22 Z M-20,-34 L20,-34 L20,-28 L-20,-28 Z M-20,30 L20,30 L20,36 L-20,36 Z" fill="#ffffff" />
+    </g>
+
+  </g>
+
+
+  <!-- ==================== OPEN BOOK BASE ==================== -->
+  <g id="openBook">
+    <!-- Center Spine / Origin at 450, 560 -->
+
+    <!-- LEFT WING - Bottom Red Page -->
+    <path d="M440,550 C380,550 260,540 140,490 C90,465 50,420 40,360 C60,420 120,470 200,490 C280,510 370,520 440,525 Z" fill="#e11d27" />
+    
+    <!-- LEFT WING - Large Red Outer Ribbon / Cover -->
+    <path d="M430,555 C340,555 200,535 90,470 C50,440 30,400 25,355 C30,425 80,480 150,515 C230,555 340,575 435,580 Z" fill="#e11d27" />
+    
+    <!-- LEFT WING - Inner Dark Pages -->
+    <path d="M440,540 C350,535 250,510 160,450 C120,420 90,380 80,340 C100,390 150,430 220,455 C300,480 380,495 440,500 Z" fill="#18181b" />
+    
+    <path d="M440,560 C370,560 270,545 180,500 C130,470 100,430 90,390 C110,435 170,475 250,500 C320,520 390,530 440,535 Z" fill="#27272a" />
+    
+    <!-- Left Top Notch / Bracket -->
+    <path d="M255,260 L230,220 L160,265 L175,295 L225,260 L240,295 Z" fill="#18181b" />
+    <path d="M260,250 L240,215 L225,225 L245,260 Z" fill="#e11d27" />
+
+
+    <!-- RIGHT WING - Symmetrical Mirror -->
+    <!-- RIGHT WING - Bottom Red Page -->
+    <path d="M460,550 C520,550 640,540 760,490 C810,465 850,420 860,360 C840,420 780,470 700,490 C620,510 530,520 460,525 Z" fill="#e11d27" />
+    
+    <!-- RIGHT WING - Large Red Outer Ribbon / Cover -->
+    <path d="M470,555 C560,555 700,535 810,470 C850,440 870,400 875,355 C870,425 820,480 750,515 C670,555 560,575 465,580 Z" fill="#e11d27" />
+    
+    <!-- RIGHT WING - Inner Dark Pages -->
+    <path d="M460,540 C550,535 650,510 740,450 C780,420 810,380 820,340 C800,390 750,430 680,455 C600,480 520,495 460,500 Z" fill="#18181b" />
+    
+    <path d="M460,560 C530,560 630,545 720,500 C770,470 800,430 810,390 C790,435 730,475 650,500 C580,520 510,530 460,535 Z" fill="#27272a" />
+
+    <!-- Right Top Notch / Bracket -->
+    <path d="M645,260 L670,220 L740,265 L725,295 L675,260 L660,295 Z" fill="#18181b" />
+    <path d="M640,250 L660,215 L675,225 L655,260 Z" fill="#e11d27" />
+
+    <!-- Bottom Center Spine Crease Accent -->
+    <path d="M450,510 L450,580" stroke="#e11d27" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>

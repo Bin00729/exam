@@ -1,0 +1,6 @@
+{
+  "name": "ExamShield PWA",
+  "description": "Secure, offline-first online examination progressive web app with strict anti-cheating proctoring and dynamic JSON exam packages.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
