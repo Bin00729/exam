@@ -1,8 +1,8 @@
 {
   "id": "/",
-  "name": "ExamShield PWA",
-  "short_name": "ExamShield",
-  "description": "Secure, offline-first online examination progressive web app with anti-cheating proctoring and dynamic JSON exam packages.",
+  "name": "Bahir Dar Academy Exam Portal",
+  "short_name": "BDA Exam",
+  "description": "Bahir Dar Academy online examination portal for English, Mathematics, Biology, and Physics.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

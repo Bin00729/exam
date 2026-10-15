@@ -42,13 +42,17 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-lg sm:text-xl text-slate-900 tracking-tight">
-                Online Examination
+                Bahir Dar Academy
               </span>
               <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-red-50 text-red-600 border border-red-200">
-                Portal
+                ባህር ዳር አካዳሚ
               </span>
             </div>
-            <p className="text-xs text-slate-500 font-medium">English • Mathematics • Biology • Physics</p>
+            <div className="flex items-center gap-2 text-xs">
+              <span className="text-slate-500 font-medium hidden sm:inline">Online Examination Portal</span>
+              <span className="hidden sm:inline text-slate-300">•</span>
+              <span className="text-slate-400 font-mono text-[11px]">bahirdaracademy.github.io</span>
+            </div>
           </div>
         </div>
 

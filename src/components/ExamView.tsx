@@ -146,6 +146,11 @@ export const ExamView: React.FC<ExamViewProps> = ({
               className="h-10 sm:h-12 w-auto object-contain flex-shrink-0"
             />
             <div className="min-w-0">
+              <div className="flex items-center gap-1.5">
+                <span className="text-[11px] font-bold text-red-600 uppercase tracking-wider">Bahir Dar Academy</span>
+                <span className="text-slate-300">•</span>
+                <span className="text-xs text-slate-500 font-mono">bahirdaracademy.github.io</span>
+              </div>
               <h1 className="text-base sm:text-lg font-extrabold text-slate-900 truncate">
                 {exam.title}
               </h1>

@@ -47,8 +47,8 @@ export const ExamResultsView: React.FC<ExamResultsViewProps> = ({
           <div className="flex items-center gap-4">
             <img src="/logo.svg" alt="Logo" className="h-16 w-auto" />
             <div>
-              <h1 className="text-2xl font-extrabold">Official Examination Score Card</h1>
-              <p className="text-sm text-slate-600">Academy Academic Assessment</p>
+              <h1 className="text-2xl font-extrabold">Bahir Dar Academy Official Score Card</h1>
+              <p className="text-sm text-slate-600">ባህር ዳር አካዳሚ • bahirdaracademy.github.io</p>
             </div>
           </div>
           <div className="text-right text-xs text-slate-600 font-mono">

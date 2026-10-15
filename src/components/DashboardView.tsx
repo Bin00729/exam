@@ -163,15 +163,11 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
-            Select Your Subject &amp; Begin Your Exam
+            Bahir Dar Academy Examination Portal
           </h1>
 
           <p className="text-sm text-slate-600 leading-relaxed">
-            Welcome to the online examination platform. Designed to be completely straightforward: choose from{' '}
-            <strong className="text-slate-900">English</strong>,{' '}
-            <strong className="text-slate-900">Mathematics</strong>,{' '}
-            <strong className="text-slate-900">Biology</strong>, or{' '}
-            <strong className="text-slate-900">Physics</strong>, answer the questions at your own pace, and receive your verified score immediately.
+            Welcome to the official online examination platform for <strong className="text-slate-900">Bahir Dar Academy</strong>. Choose your subject to start: <strong className="text-slate-900">English</strong>, <strong className="text-slate-900">Mathematics</strong>, <strong className="text-slate-900">Biology</strong>, or <strong className="text-slate-900">Physics</strong>. Answer the questions and receive your score card instantly.
           </p>
 
           <div className="flex items-center gap-4 text-xs font-medium text-slate-600 pt-1 justify-center md:justify-start">
@@ -185,7 +181,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             </span>
             <span className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              No Complex Setup
+              bahirdaracademy.github.io
             </span>
           </div>
         </div>
@@ -194,11 +190,14 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
         <div className="flex-shrink-0 flex flex-col items-center justify-center p-6 bg-white rounded-2xl border border-slate-200/90 shadow-sm">
           <img
             src="/logo.svg"
-            alt="Academy Logo"
+            alt="Bahir Dar Academy Logo"
             className="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-md"
           />
-          <span className="mt-3 text-xs font-extrabold tracking-wider text-slate-800 uppercase">
-            Official Examination Center
+          <span className="mt-3 text-xs font-extrabold tracking-wider text-slate-900 uppercase">
+            Bahir Dar Academy
+          </span>
+          <span className="text-[11px] text-slate-500 font-mono">
+            bahirdaracademy.github.io
           </span>
         </div>
       </div>
